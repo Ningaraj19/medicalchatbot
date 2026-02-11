@@ -3,7 +3,7 @@ from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
 from pinecone import ServerlessSpec
 from pinecone import Pinecone
-from helper import extract_from_pdf, filter_to_min, text_split, download_embeddings
+from src.helper import extract_from_pdf, filter_to_min, text_split, download_embeddings
 
 
 load_dotenv()
