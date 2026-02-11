@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Virtual environments
+myenv/
+venv/
+env/
+
 # C extensions
 *.so
 
